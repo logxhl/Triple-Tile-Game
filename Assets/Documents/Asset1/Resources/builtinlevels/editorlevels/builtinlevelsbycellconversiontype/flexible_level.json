@@ -1,0 +1,76 @@
+{
+    "id": -1,
+    "bank_id": 0,
+    "name": null,
+    "content_hash": null,
+    "type": "classic",
+    "seeds": [],
+    "valid_for_use": false,
+    "position": 0,
+    "data": {
+        "ls": [
+            {
+                "c": [],
+                "c2": null,
+                "c3": [
+                    {
+                        "w": 4,
+                        "h": 4,
+                        "p": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0,
+                            "w": 0
+                        },
+                        "ms": [],
+                        "t": "t"
+                    },
+                    {
+                        "w": 4,
+                        "h": 4,
+                        "p": {
+                            "x": 4,
+                            "y": 0,
+                            "z": 0,
+                            "w": 0
+                        },
+                        "ms": [],
+                        "t": "t"
+                    }
+                ],
+                "w": 32,
+                "h": 40
+            },
+            {
+                "c": [],
+                "c2": null,
+                "c3": [
+                    {
+                        "w": 4,
+                        "h": 4,
+                        "p": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0,
+                            "w": 0
+                        },
+                        "ms": [],
+                        "t": "t"
+                    }
+                ],
+                "w": 32,
+                "h": 40
+            }
+        ],
+        "tt": [
+            3
+        ],
+        "v": "1.0.0(1)",
+        "cd": null,
+        "cds": {},
+        "cdcm": null,
+        "time_for_level": null,
+        "ph": null
+    },
+    "rewards": []
+}

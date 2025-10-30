@@ -1,0 +1,38 @@
+{
+    "id": -1,
+    "bank_id": 0,
+    "name": null,
+    "content_hash": null,
+    "type": "classic",
+    "seeds": [],
+    "valid_for_use": false,
+    "position": 0,
+    "data": {
+        "ls": [
+            {
+                "c": [1,2,1],
+                "c2": null,
+                "c3": null,
+                "w": 8,
+                "h": 10
+            },
+            {
+                "c": [2,1,2],
+                "c2": null,
+                "c3": null,
+                "w": 8,
+                "h": 10
+            }
+        ],
+        "tt": [
+            1
+        ],
+        "v": "1.0.0(1)",
+        "cd": null,
+        "cds": {},
+        "cdcm": null,
+        "time_for_level": null,
+        "ph": null
+    },
+    "rewards": []
+}

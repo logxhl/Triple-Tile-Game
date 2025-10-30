@@ -1,0 +1,36 @@
+Display name,Field ID,Type,Date modified,Tags
+A/B Variant IDs,13417638049053,Text,2023-09-07,Custom field
+Additional Info,13140837883549,Text,2023-08-25,Custom field
+Assignee,1900000971513,Drop-down,2023-05-17,Standard field
+Category,5713706094609,Drop-down,2023-05-17,Custom field
+Category,4420243456017,Drop-down,2023-05-17,Custom field
+Current Level Hash,13417585918877,Text,2023-09-07,Custom field
+Description,1900000971413,Multi-line,2023-05-17,Standard field
+Device,4420200402449,Text,2023-05-17,Custom field
+Game Config ID,13417589996829,Text,2023-09-07,Custom field
+Group,1900000971493,Drop-down,2023-05-17,Standard field
+IDFA,4420205399697,Text,2023-05-26,Custom field
+IDFV,4420200369809,Text,2023-05-26,Custom field
+install_id,7677323024669,Text,2023-05-26,Custom field
+is_payer,7384875084445,Checkbox,2023-05-17,Custom field
+Issue Category,11152434429725,Drop-down,2023-05-26,Custom field
+Issue Category,6095380672273,Drop-down,2023-05-26,Custom field
+Issue Category,8717898113169,Drop-down,2023-05-26,Custom field
+Issue Subcategory,9856163747357,Drop-down,2023-05-26,Custom field
+Language,4420184028817,Text,2023-05-26,Custom field
+Last Transaction Date,13393419355421,Text,2023-09-06,Custom field
+Last Transaction Price,13391440885917,Text,2023-09-06,Custom field
+OS,4420200421137,Text,2023-05-17,Custom field
+Priority,1900000971473,Drop-down,2023-05-17,Standard field
+Region,4420200383121,Text,2023-05-26,Custom field
+Screen,4420200425617,Text,2023-05-26,Custom field
+Seed,6840260489489,Numeric,2023-05-26,Custom field
+Status,1900000971433,Drop-down,2023-05-17,Standard field
+Subject,1900000971393,Text,2023-05-17,Standard field
+Timestamp,7207574581789,Text,2023-05-26,Custom field
+TimeZone,4420205438481,Text,2023-05-17,Custom field
+Total Transaction Value,13392982133149,Text,2023-09-06,Custom field
+Type,1900000971453,Drop-down,2023-05-17,Standard field
+User,4420205421457,Text,2023-05-26,Custom field
+Version,4420243596049,Text,2023-05-17,Custom field
+VIP Level,11013273687965,Text,2023-05-26,Custom field

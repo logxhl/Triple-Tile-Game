@@ -1,0 +1,26 @@
+{
+    "name": "game_center_authentication",
+    "allocation_start_timestamp": "2025-07-01T15:20:49.615122Z",
+    "allocation_end_timestamp": "2026-02-01T15:20:49.615272Z",
+    "allocation_duration_hours": -1,
+    "variants": [
+        {
+            "name": "game_center_enable",
+            "probability": 50.0,
+            "override_by_gs": false,
+            "settings": {
+                "config_name": "default",
+                "game_center_enabled": true
+            }
+        },
+        {
+            "name": "game_center_disable",
+            "probability": 50.0,
+            "override_by_gs": false,
+            "settings": {
+                "config_name": "default",
+                "game_center_enabled": false
+            }
+        }
+    ]
+}

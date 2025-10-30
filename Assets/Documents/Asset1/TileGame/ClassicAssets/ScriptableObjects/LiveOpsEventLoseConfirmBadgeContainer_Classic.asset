@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -789195955, guid: 9d2c7fa66f05b9294521c17b838b9756, type: 3}
+  m_Name: LiveOpsEventLoseConfirmBadgeContainer_Classic
+  m_EditorClassIdentifier:
+  keyValuePrefabConfigs:
+  - key: golden_tiles
+    value: {fileID: 114656117755178781, guid: b9c042519b4c31840868efc81367f10e, type: 2}
+  - key: level_express
+    value: {fileID: 114710472717386697, guid: 7bac75425244fe64c9c5a07f91261423, type: 2}
+  - key: win_streak
+    value: {fileID: 114730477417998149, guid: 132b736c6c8cafd418a07eb84ec9b610, type: 2}
+  - key: race
+    value: {fileID: 114455982628360146, guid: ef89a3382d1f7e642b152a04f9093fe5, type: 2}
+  - key: leaderboard
+    value: {fileID: 114980750735905568, guid: 04b92a1422e1ccf48bb3be492b5e9bce, type: 2}

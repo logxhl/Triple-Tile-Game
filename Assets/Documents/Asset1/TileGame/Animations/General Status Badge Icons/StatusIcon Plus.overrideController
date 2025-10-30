@@ -1,0 +1,13 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: StatusIcon Plus
+  m_Controller: {fileID: 9100000, guid: c0b68620e926a804cadeda684ccf88b6, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: ff04e270ad796a7489bcf9fe17ed6288, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 708970fa6a8e164428f8531c67fd97dc, type: 2}

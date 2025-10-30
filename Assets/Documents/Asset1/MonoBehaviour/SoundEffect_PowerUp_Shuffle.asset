@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1163793424, guid: 06ffdf01ee31d8d14724a9ada305b913, type: 3}
+  m_Name: SoundEffect_PowerUp_Shuffle
+  m_EditorClassIdentifier:
+  audioClip: {fileID: 8300000, guid: 0cb10b783a2fbb5408bd3c420deb70d3, type: 3}
+  pitchVariation: 0
+  mixerGroup: {fileID: 24300020, guid: 9ddf92af3dc752247a6b42dfcc505cda, type: 2}
+  groupId:
+  priorityInGroup: 0
+  behaviourOnPriorityCollision: 0

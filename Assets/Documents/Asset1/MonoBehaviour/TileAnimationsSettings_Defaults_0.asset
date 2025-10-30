@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -729284293, guid: 9d2c7fa66f05b9294521c17b838b9756, type: 3}
+  m_Name: TileAnimationsSettings_Defaults
+  m_EditorClassIdentifier:
+  moveEaseType: 18
+  moveDuration: 0.4
+  moveDelay: 0
+  scaleEaseType: 9
+  undoEaseType: 22
+  undoDuration: 0.25
+  undoDelay: 0
+  magicMoveEaseType: 19
+  magicMoveDuration: 0.6
+  magicMoveDelay: 0.25
+  shuffleInEaseType: 18
+  shuffleInDuration: 0.33
+  shuffleInDelay: 0
+  shuffleOutEaseType: 21
+  shuffleOutDuration: 0.33
+  shuffleOutDelay: 0.1
+  shuffleOrigin: {x: 0, y: -300, z: 100}
+  shuffleDistance: {x: 400, y: 300, z: 100}
+  shuffleMinDistance: {x: 0, y: 0, z: -100}
+  shuffleRandomMultiplier: 1
+  matchAnimationInterval: 0.1
+  matchAnimationZOffset: -37

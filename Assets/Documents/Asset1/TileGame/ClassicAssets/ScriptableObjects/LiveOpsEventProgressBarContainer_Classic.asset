@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1548073055, guid: 9d2c7fa66f05b9294521c17b838b9756, type: 3}
+  m_Name: LiveOpsEventProgressBarContainer_Classic
+  m_EditorClassIdentifier:
+  keyValuePrefabConfigs:
+  - key: golden_tiles
+    value: {fileID: 114977344026653305, guid: 0da62ea4261a43748b3c196b7c454c31, type: 2}
+  - key: level_express
+    value: {fileID: 114370415095392070, guid: f6765eea5cad4dc4e908f46e77eb7439, type: 2}
+  - key: leaderboard
+    value: {fileID: 114302150479966758, guid: dfb1beedf417f564899c70261afd941d, type: 2}

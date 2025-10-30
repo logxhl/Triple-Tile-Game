@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -672080796, guid: 9d2c7fa66f05b9294521c17b838b9756, type: 3}
+  m_Name: LiveOpsEventFlyingIconContainer_Classic
+  m_EditorClassIdentifier:
+  keyValuePrefabConfigs:
+  - key: golden_tiles
+    value: {fileID: 114856747491087820, guid: b17beb09bd50c104f8adfce8523390b4, type: 2}
+  - key: level_express
+    value: {fileID: 114789906967355319, guid: ced0f10804c93ab47874452bab758e31, type: 2}
+  - key: leaderboard
+    value: {fileID: 114916775432815547, guid: 6d27630aa6d97584481c3e803b504a51, type: 2}

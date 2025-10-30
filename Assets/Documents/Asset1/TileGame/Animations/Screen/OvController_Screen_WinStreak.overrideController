@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: OvController_Screen_WinStreak
+  m_Controller: {fileID: 9100000, guid: c5ec757ee1cbd1245912ba01ab356c52, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 84a442d27b913af44b0d983a29e8fdc5, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: bb082003e8c9de346bc34f3de467e936, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 953e538ebb2d0a047a3a69f5ccc95de7, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: f91c7a3a2240ac14f9f000481c9b7cf7, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 8147d7d77100e5848a52bdf5841a4ec3, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: d5a50ecdbe17a34489621693f9ad2bbb, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: ce69c1b7a3198354babaf7ad4a7a5c8f, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 0861a20a78722774ba56b7f91ff5a755, type: 2}

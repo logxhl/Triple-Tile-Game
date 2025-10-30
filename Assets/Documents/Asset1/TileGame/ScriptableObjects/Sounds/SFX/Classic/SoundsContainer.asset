@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1941199829, guid: 9d2c7fa66f05b9294521c17b838b9756, type: 3}
+  m_Name: SoundsContainer
+  m_EditorClassIdentifier:
+  keyValuePrefabConfigs:
+  - key: tile_tapped
+    value:
+    - {fileID: 11400000, guid: df19d8d4099942540b36972e11cc4878, type: 2}
+    - {fileID: 11400000, guid: 942e1b95e9bfa3f4d8468a9b25750415, type: 2}
+    - {fileID: 11400000, guid: 0f1e6996eb4a85d49bc2ed9614beb798, type: 2}
+    - {fileID: 11400000, guid: 92d58602d5bcc2042809f5d07c4074a5, type: 2}
+    - {fileID: 11400000, guid: 19b929a984f9be541944e136716a59ab, type: 2}
+    - {fileID: 11400000, guid: e2256dc707054dc40912f2ed8a4b3197, type: 2}
+  - key: tile_matched
+    value:
+    - {fileID: 11400000, guid: d80c0a83b22282349b4ec07eed03d43f, type: 2}
+  - key: revive
+    value:
+    - {fileID: 11400000, guid: 6e57bda1de6879147966f676ae33a161, type: 2}
+  - key: undo
+    value:
+    - {fileID: 11400000, guid: b14fd85bd16b92a4fb5ec6d717780d74, type: 2}
+  - key: magic_match
+    value:
+    - {fileID: 11400000, guid: dc3c79a1e0f474549a592c0fc2703140, type: 2}
+  - key: shuffle
+    value:
+    - {fileID: 11400000, guid: cb97192fcfa7cd640b302b8576154589, type: 2}

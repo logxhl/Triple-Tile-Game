@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: GameScreen
+  m_Controller: {fileID: 9100000, guid: f29a7de0bae2ca84583af91494ff5580, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 40c525efdb0adc7419ed5dd9d6f90881, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: ab34c0b614606dd4b9ae7462c251b6a2, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 4f46c185fd0310f4e97d0c1cefc626d4, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 77b5560ff4931654ab1b0c6869db520d, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 02878356ac0f34647ab00fbb051ca17c, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: dd9a0dd997bbfa144a1e2c20428ce215, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: e70985b530964eb49b0203cba36c3dd9, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: d6680f013c3a75446bbf1da184949156, type: 2}

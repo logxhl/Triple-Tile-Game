@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1008384040, guid: e2a64d6ffd446c3b075bcbaa39c4639e, type: 3}
+  m_Name: GameServerConfig
+  m_EditorClassIdentifier:
+  appId: b328e9c3-857c-4b7d-abdd-67520c901f3a
+  environment: 0
+  productionEnvironment:
+    ServerUrl: https://tiles-production.tripledotapi.com/
+    SignatureKey:
+  stagingEnvironment:
+    ServerUrl: https://game-server-staging.tripledotapi.com
+    SignatureKey:
+  developmentEnvironment:
+    ServerUrl: https://scrapbooks.gs-dev-web.tripledotapi.com/
+    SignatureKey:

@@ -1,0 +1,10 @@
+{
+    "entries_to_remove": [
+        "debug"
+    ],
+    "entries_to_add": {
+        "ads_max_sdk_key": "iVl5w_UosHrmgUipNCzIaXBnUwkC-PZgwJmqJFb9XRvCxc0IpzbOVnA-guBfIlLC260LLcVu3P5-05Hq3tDTeN",
+        "ads_ironsource_android_sdk_key": "190b23805",
+        "ads_ironsource_ios_sdk_key": "190b2718d"
+    }
+}

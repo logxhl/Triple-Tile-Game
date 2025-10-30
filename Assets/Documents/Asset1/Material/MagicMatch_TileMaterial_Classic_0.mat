@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MagicMatch_TileMaterial_Classic
+  m_Shader: {fileID: 4800000, guid: 7a96a11696ac493459814922170b1767, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _CORNERSGLOWON
+  - _ISGLOWBEHINDICON
+  - _ISGLOWBEHINDSTICK
+  - _USEDYNAMICGLOW
+  - _USEINTENSITY
+  - _USESTATCISTARS
+  - _USESTATICCORNERSGLOW
+  - _USESTATICSTARS
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseTexture:
+        m_Texture: {fileID: 2800000, guid: a6aed0dc064ea05408b4c81e16d0220f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EffectsTexture:
+        m_Texture: {fileID: 2800000, guid: 743988fe3d4038e4784bba122497037b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IconTexture:
+        m_Texture: {fileID: 2800000, guid: 121a668bb3beb294b9bc1d3149c33bbb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_805dbee0839448529669fda550bc16c2_Texture_1_Texture2D:
+        m_Texture: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _CORNERSGLOWON: 1
+    - _CornersDynamicIntensity: 0.45
+    - _CornersGlowIntensity: 0.86
+    - _CornersGlowSpeed: 3
+    - _CornersIntensity: 0.73
+    - _CornersSize: 1.31
+    - _Corners_Glow_Intensity: 0.86
+    - _DynamicGlowIntensity: 0.87
+    - _DynamicGlowSpeed: 3
+    - _Effect_Texture_Size: 1.289
+    - _Flickering_Speed: 2
+    - _Float: 1.31
+    - _GlowBehindIntensity: 0.156
+    - _GlowBehindSize: 1.8
+    - _Glow_Intensity: 0.156
+    - _Glow_Size: 1.8
+    - _ISGLOWBEHINDICON: 1
+    - _ISGLOWBEHINDSTICK: 1
+    - _IconSize: 1.521
+    - _Intensity: 1.59
+    - _Intensity_1: 1.32
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _RaysIntensity: 1.59
+    - _RaysTextureSize: 1.24
+    - _Rays_Texture_Size: 1.24
+    - _Size: 1.759
+    - _SolidIconAlphaWeight: 0
+    - _Speed: 2
+    - _StarsIntensity: 0.573
+    - _StarsSize: 1.375
+    - _StarsTextureSize: 1.367
+    - _StickGlowSize: 1.459
+    - _USEDYNAMICCORNERS: 0
+    - _USEDYNAMICGLOW: 1
+    - _USEDYNAMICRAYS: 0
+    - _USEINTENSITY: 1
+    - _USESALPHACEILEFFECT: 0
+    - _USESECONDTONE: 0
+    - _USESTARSPARTICLEFX: 0
+    - _USESTATCISTARS: 1
+    - _USESTATICCORNERSGLOW: 1
+    - _USESTATICGLOW: 0
+    - _USESTATICSTARS: 1
+    - _X_CoordSpeed: 0.25
+    - _X_Coord_Tile: 1
+    - _Y_CoordSpeed: 0.25
+    - _Y_Coord_Tile: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color_1: {r: 0.3679245, g: 0.3184405, b: 0.11280705, a: 0}
+    - _CornersGlowColor: {r: 1, g: 0, b: 0, a: 0}
+    - _Corners_Glow_Color: {r: 1, g: 0, b: 0, a: 0}
+    - _EffectColor: {r: 0.38679248, g: 0.23171058, b: 0.23171058, a: 0}
+    - _EffectColor_1: {r: 0.56857526, g: 0.11854753, b: 0.6792453, a: 0}
+    - _Effect_Color: {r: 0.24528301, g: 0.24181202, b: 0.24181202, a: 0}
+    - _Effect_Color_A: {r: 0.24528301, g: 0.22792807, b: 0.22792807, a: 0}
+    - _Effect_Color_B: {r: 1, g: 0.8227806, b: 0, a: 0}
+    - _GlowBehindIconColor: {r: 0.3882353, g: 0.2627451, b: 0.2627451, a: 0}
+    - _Glow_Color: {r: 0.3882353, g: 0.2627451, b: 0.2627451, a: 0}
+    - _RaysGlowColor: {r: 0.2470588, g: 0.2431373, b: 0.2431373, a: 0}
+    - _StarsColor: {r: 1, g: 0.5801887, b: 0.8552374, a: 0}
+    - _TileBackgroundColor: {r: 0.3460751, g: 0.6916444, b: 0.9528302, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 0

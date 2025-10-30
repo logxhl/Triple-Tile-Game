@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -732382835, guid: 9d2c7fa66f05b9294521c17b838b9756, type: 3}
+  m_Name: ProjectContextReferencesInstaller
+  m_EditorClassIdentifier:
+  screenPrefabNamesContainer: {fileID: 11400000, guid: aa9b50bc90a1573468a57eda788a04ee, type: 2}
+  screenPrefabByIdAddressContainer: {fileID: 11400000, guid: 681c7467d63cf5c438169849661ed3ee, type: 2}
+  tileTransformBoosterIconData: {fileID: 11400000, guid: 053490ffc72e25f469401b6dcf42029f, type: 2}
+  magicMatchTileIconData: {fileID: 11400000, guid: badbd88d180495f4eb5c479408633b9a, type: 2}
+  goldenTileEditorCheats: {fileID: 11400000, guid: d9ec140d2a4c3b64a87f0e92ecfe6258, type: 2}
+  prefabKeyAddressContainer: {fileID: 11400000, guid: a79ab290c5e421040ba03cb55eeb6b8f, type: 2}
+  builtInLevelConfigsByCellConversionType: {fileID: 11400000, guid: f463f2f85d8cba5458915ee68967f1d4, type: 2}

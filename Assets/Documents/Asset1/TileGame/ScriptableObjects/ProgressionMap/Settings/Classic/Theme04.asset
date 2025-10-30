@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1235727784, guid: 9d2c7fa66f05b9294521c17b838b9756, type: 3}
+  m_Name: Theme04
+  m_EditorClassIdentifier:
+  MainColor: {r: 0.8980392, g: 0.69411767, b: 0.5372549, a: 1}
+  SecondaryColor: {r: 0.85490197, g: 0.5294118, b: 0.44313726, a: 1}
+  SegmentPrefab: {fileID: 114743228823019220, guid: 4125388bcbd64f142bf91e49e7bd2558, type: 2}
+  BackgroundPrefab: {fileID: 0}
+  GameBackgroundSprite: {fileID: 21300000, guid: 7de5cf0c66e0a1a4aa93e28625150dcf, type: 2}

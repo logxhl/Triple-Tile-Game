@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1103333799, guid: b96edb899968ce828300b909cd18c3e9, type: 3}
+  m_Name: SupportConfig
+  m_EditorClassIdentifier:
+  SupportEmail: tripletile_support@tripledotstudios.com
+  DefaultEmailTitle: TripleTile Support
+  PrivacyPolicyUrl: https://www.tripledotstudios.com/privacy
+  TermsAndConditionsUrl: https://www.tripledotstudios.com/tos

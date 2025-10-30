@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -538544369, guid: 9d2c7fa66f05b9294521c17b838b9756, type: 3}
+  m_Name: PrefabAddressContainer_Classic
+  m_EditorClassIdentifier:
+  screenPrefabAddressConfigs:
+  - typeName: SplashScreen
+    assetReference:
+      m_AssetGUID: e0f53fcd169084d8797ae136164f1b56
+      m_SubObjectName:
+      m_SubObjectGUID:
+      m_SubObjectType:
+  - typeName: SagaMapCompleteScreen
+    assetReference:
+      m_AssetGUID: 4fcb076dc493541bf87f831c9ac457ef
+      m_SubObjectName:
+      m_SubObjectGUID:
+      m_SubObjectType:
+  - typeName: DailyChallengeReminderScreen
+    assetReference:
+      m_AssetGUID: 470211ead71e8437781b72ee7fc59b44
+      m_SubObjectName:
+      m_SubObjectGUID:
+      m_SubObjectType:
+  - typeName: NewDailyChallengeMessageScreen
+    assetReference:
+      m_AssetGUID: d4b08a8a38ad14bee801dc7fe1364006
+      m_SubObjectName:
+      m_SubObjectGUID:
+      m_SubObjectType:
+  - typeName: MainTutorialScreen
+    assetReference:
+      m_AssetGUID: 4c659e09769e34f97b201bfeac0f52e4
+      m_SubObjectName:
+      m_SubObjectGUID:
+      m_SubObjectType:
+  - typeName: PowerUpUnlockScreen
+    assetReference:
+      m_AssetGUID: ccc15d77098104fb5ab8160e50b8ec2f
+      m_SubObjectName:
+      m_SubObjectGUID:
+      m_SubObjectType:
+  - typeName: TileTvScreen
+    assetReference:
+      m_AssetGUID: f2db63600b56a42b9aebc542392a0df5
+      m_SubObjectName:
+      m_SubObjectGUID:
+      m_SubObjectType:
+  - typeName: PolaroidTransitionView
+    assetReference:
+      m_AssetGUID: 774c3d903b8804a028306b8436b5ac06
+      m_SubObjectName:
+      m_SubObjectGUID:
+      m_SubObjectType:

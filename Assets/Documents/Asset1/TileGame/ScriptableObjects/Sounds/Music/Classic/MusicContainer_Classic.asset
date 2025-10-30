@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1971954613, guid: 9d2c7fa66f05b9294521c17b838b9756, type: 3}
+  m_Name: MusicContainer_Classic
+  m_EditorClassIdentifier:
+  keyValuePrefabConfigs:
+  - key: chords
+    value:
+    - {fileID: 8300000, guid: 6761e8a9b342fd64f82866f423ebd7fc, type: 3}
+    - {fileID: 8300000, guid: 20b98dd863b8d954b95bd9a07e58e558, type: 3}
+    - {fileID: 8300000, guid: 900723570ba973e47b2b65d401bb9075, type: 3}
+    - {fileID: 8300000, guid: d612f9d81f1d1404da6b46626e89e059, type: 3}
+  - key: drums
+    value:
+    - {fileID: 8300000, guid: d9f322985c02bb648a5807a4fa4f6508, type: 3}
+    - {fileID: 8300000, guid: c211a2437f308a44cab37af72e9e1204, type: 3}
+    - {fileID: 8300000, guid: a1179ef651a6f1f458bcfea21a3e4d3f, type: 3}
+    - {fileID: 8300000, guid: b18944fa6b5acf342ad6213c01822309, type: 3}
+  - key: bass
+    value:
+    - {fileID: 8300000, guid: 2f3cb119a493ff04eb5edb76a3a4efa5, type: 3}
+    - {fileID: 8300000, guid: 970f0779acd96654e8638631a5c9dd0a, type: 3}
+    - {fileID: 8300000, guid: 7183a098b205e954a99506f82722b070, type: 3}
+    - {fileID: 8300000, guid: c953ebab094f14b48a17d7b0ab76a8ca, type: 3}
+  - key: melodies
+    value:
+    - {fileID: 8300000, guid: e942877b6d1e51343b3ee8d3a88f04b4, type: 3}
+    - {fileID: 8300000, guid: aa83b8552a0b2dd4c8583ae310a449cb, type: 3}
+    - {fileID: 8300000, guid: 89048fbafc3b9ae49b9af7f1f6df1c28, type: 3}
+    - {fileID: 8300000, guid: 4b65cd412ce475846bb671a136920c6c, type: 3}
+  - key: guitar
+    value:
+    - {fileID: 8300000, guid: 656919ccb5314264baa0a8cf9e299866, type: 3}
+    - {fileID: 8300000, guid: ff3e1d8e69028e949a021a8e7eaeba9c, type: 3}
+  FadeInDurationInSeconds: 5
+  FadeOutDurationInSeconds: 2

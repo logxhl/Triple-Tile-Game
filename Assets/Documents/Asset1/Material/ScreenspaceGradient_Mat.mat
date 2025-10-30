@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ScreenspaceGradient_Mat
+  m_Shader: {fileID: 4800000, guid: c37bbd83d48209a488402eae96cb7a55, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      _ColorBalance: 1.09
+      _ColorSmoothness: 0.68
+      _Float: 0.18
+      _Float_1: 0.31
+      _Float_2: 0.905
+      _Float_3: 0.955
+      _Float_Gradient: 5
+      _FrameGlowChoke: 1.84
+      _FrameGlowSize: 0.346
+      _FrameGlowWidth: 1
+      _FrameGlowWidth01: 0.133
+      _FrameGlowWidth02: 1.601
+      _Glow: 0.19
+      _Glow2: 0.258
+      _GlowingFrameChoke: 1.35
+      _GlowingFrameFrameSize: 0.566
+      _GradientHeight: 1.41
+      _GradientSmoothness: 0.92
+      _Gradient_Color_Balance: 4.15
+      _Gradient_Offset: -1.8
+      _Gradient_Pos: -2.34
+      _Gradient_Scalar: 3.5
+      _HighlightGlowChoke: 0.1
+      _HighlightGlowIntensity: 0.19
+      _HighlightGlowScalar1: 0.32
+      _HighlightGlowScalar2: 1.46
+      _HighlightGlowSize: 1.14
+      _HighlightLineIntensity: 0.07
+      _HighlightLineScalar1: 0.45
+      _HighlightLineScalar2: 1.37
+      _HighlightLineScalarChoke: 1.23
+      _HighlightLineScalarSize: 2
+      _HighlightScalar1: 0.05
+      _HighlightScalar2: 0.87
+      _Highlight_Intensity: 0.12
+      _Highlight_Line: 0.12
+      _Highlight_Line_1: 2
+      _LineIntensity: 0.16
+      _LineScalar1: 0.1
+      _LineScalar2: 1.75
+      _Line_Choke: 1.23
+      _Line_Intensity: 0.07
+      _Line_Size: 2
+      _Mid_Glow_Choke: 0.1
+      _Mid_Glow_Intensity: 0.15
+      _Mid_Glow_Size: 1.14
+      _QueueControl: 0
+      _QueueOffset: 0
+      _Rim_Choke: 1.35
+      _Rim_Size: 0.566
+    m_Colors:
+      _Color01: {r: 0.47058824, g: 0.9607843, b: 0.16470589, a: 1}
+      _Color02: {r: 0.23921569, g: 0.5882353, b: 0.90588236, a: 1}
+      _GlowColor: {r: 0.21226415, g: 0.80160916, b: 0.8490566, a: 1}
+      _GlowingFrameFrameColor: {r: 0, g: 0.9248903, b: 1, a: 1}
+      _Highlight_Color: {r: 1, g: 1, b: 1, a: 1}
+      _Highlight_Tint_Color: {r: 1, g: 1, b: 1, a: 1}
+      _Rim_Color: {r: 0, g: 0.9248903, b: 1, a: 1}
+      _Vector2: {r: 0, g: -2.07, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 0

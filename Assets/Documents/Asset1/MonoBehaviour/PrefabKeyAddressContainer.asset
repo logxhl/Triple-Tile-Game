@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 266208269, guid: 9d2c7fa66f05b9294521c17b838b9756, type: 3}
+  m_Name: PrefabKeyAddressContainer
+  m_EditorClassIdentifier:
+  keyValuePrefabConfigs:
+  - key: SplashScreen
+    value: '{SkinId}/SplashScreen'
+  - key: TileIconsContainer
+    value: '{SkinId}/TileIconsContainer'
+  - key: MusicContainer
+    value: '{SkinId}/MusicContainer'
+  - key: ThemeAssetAddressContainer
+    value: '{SkinId}/ThemeAssetAddressContainer'
+  - key: GameScreen
+    value: '{SkinId}/GameScreen'
+  - key: SoundContainer
+    value: '{SkinId}/SoundContainer'
+  - key: PolaroidTransitionView
+    value: '{SkinId}/PolaroidTransitionView'
+  - key: LinksToStoreContainer
+    value: '{SkinId}/LinksToStoreContainer.asset'
+  - key: DailyGiftObjects
+    value: '{SkinId}/DailyGiftObjects'
+  - key: LiveOpsEventTileOverlayContainer
+    value: '{SkinId}/LiveOpsEventTileOverlayContainer.asset'
+  - key: LiveOpsEventFlyingIconContainer
+    value: '{SkinId}/LiveOpsEventFlyingIconContainer.asset'
+  - key: LiveOpsEventLoseConfirmBadgeContainer
+    value: '{SkinId}/LiveOpsEventLoseConfirmBadgeContainer.asset'
+  - key: LiveOpsEventSagaMapBadgeContainer
+    value: '{SkinId}/LiveOpsEventSagaMapBadgeContainer.asset'
+  - key: LiveOpsEventProgressBarContainer
+    value: '{SkinId}/LiveOpsEventProgressBarContainer.asset'
+  - key: LiveOpsEventGameScreenCounterContainer
+    value: '{SkinId}/LiveOpsEventGameScreenCounterContainer.asset'
+  - key: PrefabByIdAddressContainer
+    value: '{SkinId}/PrefabByIdAddressContainer.asset'
+  - key: ProgressionMap
+    value: '{SkinId}/ProgressionMap.prefab'
+  - key: Screen_PowerupUnlocked
+    value: '{SkinId}/Screen_PowerupUnlocked.prefab'
+  - key: ScreenPrefabAddressContainer
+    value: '{SkinId}/PrefabAddressContainer.asset'
+  - key: SagaMapComplete
+    value: SagaMapComplete
+  - key: Tutorial_Pointer
+    value: Tutorial_Pointer
+  - key: Screen_MainGameTutorial
+    value: Screen_MainGameTutorial
+  - key: TileViewPrefab
+    value: '{SkinId}/TileView.prefab'
+  - key: MagicMatchTileVisualWrapper
+    value: '{SkinId}/Tile_VisualWrapper_MagicMatch.prefab'

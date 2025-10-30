@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MailRace_LoseScreen
+  m_Controller: {fileID: 9100000, guid: c5ec757ee1cbd1245912ba01ab356c52, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 8147d7d77100e5848a52bdf5841a4ec3, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 99c63120207a28d4fb78d4e7a0560b21, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 84a442d27b913af44b0d983a29e8fdc5, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 49f12555aafcebf4c8e8ebf177045003, type: 2}

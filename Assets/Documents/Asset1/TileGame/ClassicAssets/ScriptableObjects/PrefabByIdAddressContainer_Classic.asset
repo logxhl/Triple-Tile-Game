@@ -1,0 +1,225 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -511631608, guid: 9d2c7fa66f05b9294521c17b838b9756, type: 3}
+  m_Name: PrefabByIdAddressContainer_Classic
+  m_EditorClassIdentifier:
+  screenPrefabAddressConfigs:
+  - id: golden_tiles
+    typeName: LiveOpsEventIntroOverlayScreen
+    assetReference:
+      m_AssetGUID: 0c730c9a41e3847d398bf51f3ce92100
+      m_SubObjectName:
+      m_SubObjectGUID:
+      m_SubObjectType:
+  - id: golden_tiles
+    typeName: LiveOpsEventConfirmationScreenOldFlow
+    assetReference:
+      m_AssetGUID: 4ff495ca658fb44a7bd5efedd522e183
+      m_SubObjectName:
+      m_SubObjectGUID:
+      m_SubObjectType:
+  - id: golden_tiles
+    typeName: LiveOpsEventRewardsScreen
+    assetReference:
+      m_AssetGUID: 7bcb44879295b40ad8da4f98dba89e58
+      m_SubObjectName:
+      m_SubObjectGUID:
+      m_SubObjectType:
+  - id: level_express
+    typeName: LiveOpsEventIntroOverlayScreen
+    assetReference:
+      m_AssetGUID: 99cb4cbe29919491789280c8ddd369fa
+      m_SubObjectName:
+      m_SubObjectGUID:
+      m_SubObjectType:
+  - id: level_express
+    typeName: LiveOpsEventConfirmationScreenOldFlow
+    assetReference:
+      m_AssetGUID: 1b756c1e5e6234b98be6bb85ea0a9c2e
+      m_SubObjectName:
+      m_SubObjectGUID:
+      m_SubObjectType:
+  - id: level_express
+    typeName: LiveOpsEventRewardsScreen
+    assetReference:
+      m_AssetGUID: 7bcb44879295b40ad8da4f98dba89e58
+      m_SubObjectName:
+      m_SubObjectGUID:
+      m_SubObjectType:
+  - id: tile_tv
+    typeName: TileTvScreen
+    assetReference:
+      m_AssetGUID: f2db63600b56a42b9aebc542392a0df5
+      m_SubObjectName:
+      m_SubObjectGUID:
+      m_SubObjectType:
+  - id: golden_tiles
+    typeName: LiveOpsEventProgressionScreen
+    assetReference:
+      m_AssetGUID: b4d415836e63e476b85388c8b09dce30
+      m_SubObjectName:
+      m_SubObjectGUID:
+      m_SubObjectType:
+  - id: level_express
+    typeName: LiveOpsEventProgressionScreen
+    assetReference:
+      m_AssetGUID: 7839c838dd39a4d878be8467064f2926
+      m_SubObjectName:
+      m_SubObjectGUID:
+      m_SubObjectType:
+  - id: golden_tiles
+    typeName: LiveOpsEventSagaMapBadge
+    assetReference:
+      m_AssetGUID: 502219dcb8e12475ca1f86b791db5106
+      m_SubObjectName:
+      m_SubObjectGUID:
+      m_SubObjectType:
+  - id: level_express
+    typeName: LiveOpsEventSagaMapBadge
+    assetReference:
+      m_AssetGUID: 7f09b65ebc76c45ff8d826543865b0ca
+      m_SubObjectName:
+      m_SubObjectGUID:
+      m_SubObjectType:
+  - id: tile_tv
+    typeName: LiveOpsEventSagaMapBadge
+    assetReference:
+      m_AssetGUID: f21762f294f574ee692469cbfee1d527
+      m_SubObjectName:
+      m_SubObjectGUID:
+      m_SubObjectType:
+  - id: golden_tiles
+    typeName: LiveOpsEventLoseConfirmBadge
+    assetReference:
+      m_AssetGUID: b7f94347e4dfd434db490a56ccb843b3
+      m_SubObjectName:
+      m_SubObjectGUID:
+      m_SubObjectType:
+  - id: level_express
+    typeName: LiveOpsEventLoseConfirmBadge
+    assetReference:
+      m_AssetGUID: 8c701aa0331904ba6979e27e5d3b651a
+      m_SubObjectName:
+      m_SubObjectGUID:
+      m_SubObjectType:
+  - id: win_streak
+    typeName: LiveOpsEventRewardsScreen
+    assetReference:
+      m_AssetGUID: 7bcb44879295b40ad8da4f98dba89e58
+      m_SubObjectName:
+      m_SubObjectGUID:
+      m_SubObjectType:
+  - id: win_streak
+    typeName: WinStreakScreen
+    assetReference:
+      m_AssetGUID: f22c17fe883354093aa5bf91d7edb0e3
+      m_SubObjectName:
+      m_SubObjectGUID:
+      m_SubObjectType:
+  - id: race
+    typeName: RaceRoundProgressScreen
+    assetReference:
+      m_AssetGUID: 287f81d09595a4e2582ab4302adf74db
+      m_SubObjectName:
+      m_SubObjectGUID:
+      m_SubObjectType:
+  - id: race
+    typeName: RaceRoundLoseScreen
+    assetReference:
+      m_AssetGUID: 49319b8eff59540239a3631e2b54a270
+      m_SubObjectName:
+      m_SubObjectGUID:
+      m_SubObjectType:
+  - id: race
+    typeName: RaceRoundWinScreen
+    assetReference:
+      m_AssetGUID: a744322f0b72843cea6a93024354c324
+      m_SubObjectName:
+      m_SubObjectGUID:
+      m_SubObjectType:
+  - id: race
+    typeName: RaceIntroScreen
+    assetReference:
+      m_AssetGUID: 906df60e895d34ae598cbae7e4aa5786
+      m_SubObjectName:
+      m_SubObjectGUID:
+      m_SubObjectType:
+  - id: race
+    typeName: RaceRoundStartScreen
+    assetReference:
+      m_AssetGUID: be2262438e97e4bc187aa117d17b89c5
+      m_SubObjectName:
+      m_SubObjectGUID:
+      m_SubObjectType:
+  - id: race
+    typeName: RaceRoundChestRewardScreen
+    assetReference:
+      m_AssetGUID: 9e603eb53265348959a5af51a64ea60c
+      m_SubObjectName:
+      m_SubObjectGUID:
+      m_SubObjectType:
+  - id: race
+    typeName: LiveOpsGameEndFlowRacesWidgetScreen
+    assetReference:
+      m_AssetGUID: c35b3eb2e2a3546da972a8c831bf6c7f
+      m_SubObjectName:
+      m_SubObjectGUID:
+      m_SubObjectType:
+  - id: leaderboard
+    typeName: LeaderboardIntroScreen
+    assetReference:
+      m_AssetGUID: d84e4a3aea87f4b2798576f07d66da95
+      m_SubObjectName:
+      m_SubObjectGUID:
+      m_SubObjectType:
+  - id: leaderboard
+    typeName: LeaderboardProgressionTrackerScreen
+    assetReference:
+      m_AssetGUID: 84f532b8f6cdd41abbc8b152624bd11b
+      m_SubObjectName:
+      m_SubObjectGUID:
+      m_SubObjectType:
+  - id: leaderboard
+    typeName: LiveOpsEventSagaMapBadgeLeaderboard
+    assetReference:
+      m_AssetGUID: b98984ae5ce494334913d4d471b43e41
+      m_SubObjectName:
+      m_SubObjectGUID:
+      m_SubObjectType:
+  - id: tile_tv
+    typeName: LiveOpsEventRewardsScreen
+    assetReference:
+      m_AssetGUID: 7bcb44879295b40ad8da4f98dba89e58
+      m_SubObjectName:
+      m_SubObjectGUID:
+      m_SubObjectType:
+  - id: leaderboard
+    typeName: LiveOpsEventLoseConfirmBadge
+    assetReference:
+      m_AssetGUID: b24c2bcd8f7b74e6d906bc69cf1e4d59
+      m_SubObjectName:
+      m_SubObjectGUID:
+      m_SubObjectType:
+  - id: leaderboard
+    typeName: LeaderboardWinScreen
+    assetReference:
+      m_AssetGUID: b98e11083fc324f2bae9408d48ef79e4
+      m_SubObjectName:
+      m_SubObjectGUID:
+      m_SubObjectType:
+  - id: leaderboard
+    typeName: LeaderboardLoseScreen
+    assetReference:
+      m_AssetGUID: 58afa88b3e4ce45bfad645934857d637
+      m_SubObjectName:
+      m_SubObjectGUID:
+      m_SubObjectType:

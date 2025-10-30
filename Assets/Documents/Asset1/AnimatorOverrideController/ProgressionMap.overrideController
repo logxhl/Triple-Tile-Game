@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ProgressionMap
+  m_Controller: {fileID: 9100000, guid: c5ec757ee1cbd1245912ba01ab356c52, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 84a442d27b913af44b0d983a29e8fdc5, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: c2b2ef8c8adff7245a7b9dd09e08b394, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 953e538ebb2d0a047a3a69f5ccc95de7, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: e935a70af6e08444bbaa5c2ae6e2445d, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: ce69c1b7a3198354babaf7ad4a7a5c8f, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 417bccf821ca42d469c80a602a5d98f2, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 8147d7d77100e5848a52bdf5841a4ec3, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 464b95e97f021a74ab7674e9f4948363, type: 2}

@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: 5bb14e66d91d325468a23ec8852f8163
+timeCreated: 1761847572
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  externalObjects: {}
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Commissioner
+  fallbackFontReferences: []
+  customCharacters:
+  fontRenderingMode: 0
+  output:
+    hasEmptyFontData: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData:
+  assetBundleName: 07b4d979ddf87a42497115b76fca108e.bundle
+  assetBundleVariant:
