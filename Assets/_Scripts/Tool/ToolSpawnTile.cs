@@ -92,28 +92,64 @@ public class ToolSpawnTile : MonoBehaviour
         }
     }
 
+    // List<GameObject> CreateShuffledPrefabList(int totalSpawnPoints)
+    // {
+    //     List<GameObject> prefabPool = new List<GameObject>();
+
+    //     int prefabsPerType = totalSpawnPoints / lsPrefabs.Count;
+    //     foreach (GameObject prefab in lsPrefabs)
+    //     {
+    //         for (int i = 0; i < prefabsPerType; i++)
+    //         {
+    //             prefabPool.Add(prefab);
+    //         }
+    //     }
+
+    //     int remaining = totalSpawnPoints % lsPrefabs.Count;
+    //     for (int i = 0; i < remaining; i++)
+    //     {
+    //         prefabPool.Add(lsPrefabs[i]);
+    //     }
+
+    //     Shuffle(prefabPool);
+    //     return prefabPool;
+    // }
     List<GameObject> CreateShuffledPrefabList(int totalSpawnPoints)
     {
         List<GameObject> prefabPool = new List<GameObject>();
 
-        int prefabsPerType = totalSpawnPoints / lsPrefabs.Count;
-        foreach (GameObject prefab in lsPrefabs)
+        // 1️⃣ Kiểm tra điều kiện chia hết cho 3
+        if (totalSpawnPoints % 3 != 0)
         {
-            for (int i = 0; i < prefabsPerType; i++)
+            Debug.LogWarning($"Total spawn points ({totalSpawnPoints}) không chia hết cho 3, sẽ giảm bớt cho hợp lệ.");
+            totalSpawnPoints -= totalSpawnPoints % 3;
+        }
+
+        // 2️⃣ Tính số loại prefab cần spawn
+        int numPrefabTypes = totalSpawnPoints / 3;
+
+        // 3️⃣ Chọn ngẫu nhiên các loại prefab từ danh sách lsPrefabs
+        List<GameObject> shuffledPrefabs = new List<GameObject>(lsPrefabs);
+        Shuffle(shuffledPrefabs);
+
+        // Nếu số prefab trong danh sách ít hơn cần thiết, chỉ dùng tối đa có thể
+        numPrefabTypes = Mathf.Min(numPrefabTypes, shuffledPrefabs.Count);
+
+        // 4️⃣ Với mỗi loại được chọn → thêm đúng 3 bản vào danh sách pool
+        for (int i = 0; i < numPrefabTypes; i++)
+        {
+            for (int j = 0; j < 3; j++)
             {
-                prefabPool.Add(prefab);
+                prefabPool.Add(shuffledPrefabs[i]);
             }
         }
 
-        int remaining = totalSpawnPoints % lsPrefabs.Count;
-        for (int i = 0; i < remaining; i++)
-        {
-            prefabPool.Add(lsPrefabs[i]);
-        }
-
+        // 5️⃣ Trộn ngẫu nhiên toàn bộ danh sách
         Shuffle(prefabPool);
+
         return prefabPool;
     }
+
 
     void SpawnObjects(List<Vector3Int> tilePositions, string layerName, float positionZ, int sortingOrder, GameObject container, List<GameObject> shuffledPrefabs, ref int spawnIndex, Vector3 offset)
     {
