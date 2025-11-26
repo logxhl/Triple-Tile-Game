@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3745118571778666120}
   - component: {fileID: 2413410928686246193}
   - component: {fileID: 248099607333406177}
+  - component: {fileID: 8210193175331255286}
   m_Layer: 0
   m_Name: Tile_7
   m_TagString: Tile
@@ -193,3 +194,20 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
+--- !u!114 &8210193175331255286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2992191545533071962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b57199f92bec94d4dbe97ef4a70d8998, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  polygonCollider: {fileID: 0}
+  id: 0
+  lsTileHigher: []
